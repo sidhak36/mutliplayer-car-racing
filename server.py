@@ -5,8 +5,8 @@ from car import player_car
 from utils import  Color
 
 
-port = 5555
-server = "192.168.29.171"
+port:int
+server = ""
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:

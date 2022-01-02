@@ -4,8 +4,8 @@ import socket
 import pygame
 
 from car import player_car
-PORT = 5555
-SERVER = "192.168.29.171"
+PORT:int
+SERVER = ""
 class Network:
     def __init__(self, player_id):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
